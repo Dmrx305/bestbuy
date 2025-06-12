@@ -9,6 +9,7 @@ product_list = [ products.Product("MacBook Air M2", price=1450, quantity=100),
 best_buy = store.Store(product_list)
 
 def start():
+    """Store menu for the user to choose from"""
     while True:
         print("\nStore Menu")
         print("---------")
